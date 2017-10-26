@@ -41,6 +41,22 @@
 			.scroll #word-2, .scroll .nav li a{
 				color: #314967 !important;
 			}
+			#expertise .back img {
+				display: block;
+				margin: 0 auto;
+			}
+			#expertise p {
+				text-align: center;
+			}
+
+			.contact-info p {
+				text-align: left !important;
+			}
+
+			#portfolio .img-responsive {
+				width: 640px;
+				height: auto;
+			}
 		</style>
 </head>
 
@@ -100,8 +116,8 @@
 	</div>
 	<!-- ========== End Of Home ========== -->
 
-	<div id="about-anchor" style="position:relative;top:-82px;"></div>
 	<!-- ========== About ========== -->
+	<div id="about-anchor" style="position:relative;top:-82px;"></div>
 	<div id="about" class="offset">
 		<div class="heading">
 			<h1>About me</h1>
@@ -125,11 +141,11 @@
 				</div>
 			</div>
 		</div>
-		<div id="expertise-anchor" style="position:relative;top:-82px;"></div>
 	</div>
 	<!-- ========== End Of About ========== -->
 
 	<!-- ========== Expertises ========== -->
+	<div id="expertise-anchor" style="position:relative;top:-82px;"></div>
 	<div id="expertise" class="offset">
 		<div class="heading">
 			<h1>My Expertise</h1>
@@ -182,11 +198,11 @@
 					</div>
 				</div>
 			</div>
-		<div id="portfolio-anchor" style="position:relative;top:-82px;"></div>
 	</div>
 	<!-- ========== End Of Expertise ========== -->
 
 	<!-- ========== Portfolio ========== -->
+	<div id="portfolio-anchor" style="position:relative;top:-82px;"></div>
 	<div id="portfolio" class="offset">
 		<div class="heading">
 			<h1>My Projects</h1>
@@ -194,156 +210,67 @@
 		</div>
 		<ul class="work-list text-center">
 			<li class="filter active" data-filter="all">ALL</li>
-			<li class="filter" data-filter=".webdesign">WEB APPs</li>
-			<li class="filter" data-filter=".graphic">GRAPHIC DESIGN</li>
-			<li class="filter" data-filter=".photography">PHOTOGRAPHY</li>
-			<li class="filter" data-filter=".test">TEST</li>
+			<li class="filter" data-filter=".web">WEB APP</li>
+			<li class="filter" data-filter=".mobile">MOBILE APP</li>
+			<li class="filter" data-filter=".datavis">DATA VISUALIZATION</li>
+			<li class="filter" data-filter=".design">DESIGN</li>
 		</ul>
 		<div class="container" id="parent">
 			<ul class="da-thumbs text-center">
 				<!-- First Portfolio Item -->
-				<li class="mix test">
-					<img src="images/1.jpg" alt="image" class="img-responsive">
+				<li class="mix web design">
+					<img src="images/betternotedemo.gif" alt="image" class="img-responsive">
 					<div class="work-content">
 						<div class="work-table">
 							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/1.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+								<div class="subtitle">Betternote</div>
+								<p>A faithful clone of Evernote</p>
+								<!-- <a href="images/1.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a> -->
+								<a href="http://betternote.alvink.me" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+								<a href="https://github.com/alvink92/betternote" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 							</div>
 						</div>
 					</div>
 				</li>
 				<!-- Second Portfolio Item -->
-				<li class="mix photography">
-					<img src="images/2.jpg" alt="image" class="img-responsive">
+				<li class="mix mobile">
+					<img src="images/smoothdemo.gif" alt="image" class="img-responsive">
 					<div class="work-content">
 						<div class="work-table">
 							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/2.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+								<div class="subtitle">Smooth</div>
+								<!-- <p>A path-finding iOS application that navigates users to their destination based on their preferences</p> -->
+								<p>A smart path-finding iOS application</p>
+								<!-- <a href="images/2.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a> -->
+								<a href="https://smooth-app.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+								<a href="https://github.com/trevoruptain/smooth" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 							</div>
 						</div>
 					</div>
 				</li>
 				<!-- Third Portfolio Item -->
-				<li class="mix webdesign">
-					<img src="images/3.jpg" alt="image" class="img-responsive">
+				<li class="mix datavis design">
+					<img src="images/nbasnapshotdemo.gif" alt="image" class="img-responsive">
 					<div class="work-content">
 						<div class="work-table">
 							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/3.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</li>
-				<!-- Fourth Portfolio Item -->
-				<li class="mix graphic">
-					<img src="images/4.jpg" alt="image" class="img-responsive">
-					<div class="work-content">
-						<div class="work-table">
-							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/4.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</li>
-				<!-- Fifth Portfolio Item -->
-				<li class="mix photography">
-					<img src="images/5.jpg" alt="image" class="img-responsive">
-					<div class="work-content">
-						<div class="work-table">
-							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/5.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</li>
-				<!-- Sixth Portfolio Item -->
-				<li class="mix webdesign">
-					<img src="images/6.jpg" alt="image" class="img-responsive">
-					<div class="work-content">
-						<div class="work-table">
-							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/6.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</li>
-				<!-- Seventh Portfolio Item -->
-				<li class="mix graphic">
-					<img src="images/1.jpg" alt="image" class="img-responsive">
-					<div class="work-content">
-						<div class="work-table">
-							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/1.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</li>
-				<!-- Eighth Portfolio Item -->
-				<li class="mix webdesign">
-					<img src="images/2.jpg" alt="image" class="img-responsive">
-					<div class="work-content">
-						<div class="work-table">
-							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/2.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</li>
-				<!-- Nineth Portfolio Item -->
-				<li class="mix photography">
-					<img src="images/1.jpg" alt="image" class="img-responsive">
-					<div class="work-content">
-						<div class="work-table">
-							<div class="table-cell">
-								<div class="subtitle">Project Title</div>
-								<p>Lorem Ipsum is simply dummy text.</p>
-								<a href="images/1.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-								<a href="single-portfolio.html" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+								<div class="subtitle">NBA Snapshot</div>
+								<p>An interactive visualization of in-game statistics for an NBA game</p>
+								<!-- <a href="images/3.jpg" class="gallery"><i class="fa fa-camera" aria-hidden="true"></i></a> -->
+								<a href="http://nbasnapshot.alvink.me" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+								<a href="https://github.com/alvink92/nba-snapshot" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 							</div>
 						</div>
 					</div>
 				</li>
 			</ul>
 		</div>
-		<div id="contact-anchor" style="position:relative;top:-82px;"></div>
 	</div>
 	<!-- ========== End of Portfolio ========== -->
 
 
 	<!-- ========== Contact ========== -->
+	<div id="contact-anchor" style="position:relative;top:-82px;"></div>
 	<div id="contact" class="offset">
 		<div class="heading">
 			<h1>Contact Me</h1>
@@ -367,21 +294,14 @@
 				<div class="col-xs-12 col-sm-6 col-md-6 mb-60">
 					<div class="contact-info">
 						<h3>Get in <strong>Touch</strong></h3>
-						<p><i class="fa fa-map-marker"></i><span> Address:</span> Mumbai, India</p>
-						<p><i class="fa fa-phone"></i><span> Phone:</span> +887 358 123</p>
-						<p class="mb-20"><i class="fa fa-envelope-o"></i><span> Email:</span> personal@gmail.com</p>
+						<p class="mb-20"><i class="fa fa-map-marker"></i><span> Address:</span> San Francisco, CA</p>
+						<p class="mb-20"><i class="fa fa-phone"></i><span> Phone:</span> +415 609 4809</p>
+						<p class="mb-20"><i class="fa fa-envelope-o"></i><span> Email:</span> <a href="mailto:alvinkong92@gmail.com">alvinkong92@gmail.com</a></p>
+						<p class="mb-20"><i class="fa fa-linkedin-square"></i><span> Linkedin:</span> <a href="https://linkedin.com/in/alvink92">linkedin.com/in/alvink92</a></p>
+						<p class="mb-20"><i class="fa fa-github"></i><span> Github:</span> <a href="https://github.com/alvink92">github.com/alvink92</a></p>
 						<div class="sep"></div>
 						<h3>Business <strong>Hours</strong></h3>
 						<p class="mb-20"><i class="fa fa-clock-o"></i><span> Monday-Saturday:</span> 9am to 5pm</p>
-						<div class="sep"></div>
-						<h3>Follow <strong>Me</strong></h3>
-						<div class="social">
-						<a href="#" class="facebook-tooltip"><i class="fa fa-facebook"></i><span class="facebook-text">Facebook</span></a>
-						<a href="#" class="twitter-tooltip"><i class="fa fa-twitter"></i><span class="twitter-text">Twitter</span></a>
-						<a href="#" class="google-tooltip"><i class="fa fa-google-plus"></i><span class="google-text">Google</span></a>
-						<a href="#" class="linkedin-tooltip"><i class="fa fa-linkedin"></i><span class="linkedin-text">LinkedIn</span></a>
-						<a href="#" class="instagram-tooltip"><i class="fa fa-instagram"></i><span class="instagram-text">Instagram</span></a>
-						<a href="#" class="youtube-tooltip"><i class="fa fa-youtube"></i><span class="youtube-text">YouTube</span></a>
 					</div>
 					</div>
 				</div>
