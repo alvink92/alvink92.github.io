@@ -607,6 +607,7 @@ ul.da-thumbs {
   padding: 0px 20px 7px 20px;
 }
 #portfolio .work-content .fa {
+  line-height: 40px;
   padding: 10px;
   margin: 0px 5px;
   color: #fff;
@@ -979,7 +980,6 @@ ul.da-thumbs {
 .mb-10 {
   margin-bottom: 10px;
 }
-
 /*-------------------------------------------------------*/
 /* Clients */
 /*-------------------------------------------------------*/
@@ -988,7 +988,6 @@ ul.da-thumbs {
   padding: 0px 30px 60px 30px;
   margin: auto;
 }
-
 /*-------------------------------------------------------*/
 /* Scroll up */
 /*-------------------------------------------------------*/
@@ -1015,7 +1014,6 @@ ul.da-thumbs {
   -moz-transition: all 500ms linear;
   transition: all 500ms linear;
 }
-
 /*-------------------------------------------------------*/
 /* Footer */
 /*-------------------------------------------------------*/

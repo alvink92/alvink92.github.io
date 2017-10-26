@@ -40,7 +40,7 @@ $(function() {
       $body.delay(350).css({ overflow: "visible" });
 
       //Dynamic Colors
-      $("#pagestyle").attr("href", "css/red.css");
+      $("#pagestyle").attr("href", "css/blue.css");
       // $(".option").on("click", function() {
       //   $("#box").toggleClass("open");
       // }),
