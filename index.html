@@ -42,6 +42,10 @@
 				color: #314967 !important;
 			}
 
+			body {
+				color: #314967;
+			}
+
 			#home .text {
 				color: white;
 				text-shadow: -1px 0 #314967, 0 1px #314967, 1px 0 #314967, 0 -1px #314967;
@@ -307,7 +311,7 @@
 		<div class="container">
 			<div class="row" style="display: flex; justify-content: center;">
 				<div class="col-xs-12 col-sm-6 col-md-6">
-					<form id="form" action="php/contact.php" method="POST">
+					<!-- <form id="form" action="php/contact.php" method="POST">
 						<input type="text" id="name" name="name" size="40" class="contact-text mb-10" placeholder="Your Name">
 						<br>
 						<input type="email" name="email" size="40" class="contact-text mt-20 mb-10" placeholder="Your email address">
@@ -317,6 +321,18 @@
 						<textarea name="message" cols="40" rows="10" class="contact-message mt-20 mb-10" placeholder="Message"></textarea>
 						<br>
 						<input type="submit" value="SEND MESSAGE" class="send-btn mt-20">
+					</form> -->
+					<form id="form" action="https://formspree.io/alvinkong92@gmail.com" method="POST">
+						<input type="text" id="name" name="_replyto" size="40" class="contact-text mb-10" placeholder="Your Name">
+						<br>
+						<input type="email" name="email" size="40" class="contact-text mt-20 mb-10" placeholder="Your email address">
+						<br>
+						<input type="text" name="subject" size="40" class="contact-text mt-20 mb-10" placeholder="Subject">
+						<br>
+						<textarea name="message" cols="40" rows="10" class="contact-message mt-20 mb-10" placeholder="Message"></textarea>
+						<br>
+						<input type="submit" value="SEND MESSAGE" class="send-btn mt-20">
+						<input type="hidden" name="_next" value="//site.io/thanks.html" />
 					</form>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 mb-60">
