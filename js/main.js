@@ -102,7 +102,36 @@ $(function() {
         var scrollPos = $(document).scrollTop();
         $(".navbar-nav a").each(function() {
           var currLink = $(this);
-          var refElement = $(currLink.attr("href").replace("-anchor", ""));
+
+          // var refElement = $(currLink.attr("href").replace("-section", ""));
+
+          let refElement;
+
+          switch (currLink.attr("href")) {
+            case "#home":
+              refElement = $(currLink.attr("href").replace("home", "home"));
+              break;
+            case "#about-me":
+              refElement = $(
+                currLink.attr("href").replace("about-me", "about")
+              );
+              break;
+            case "#skills":
+              refElement = $(
+                currLink.attr("href").replace("skills", "expertise")
+              );
+              break;
+            case "#my-portfolio":
+              refElement = $(
+                currLink.attr("href").replace("my-portfolio", "portfolio")
+              );
+              break;
+            case "#contact-me":
+              refElement = $(
+                currLink.attr("href").replace("contact-me", "contact")
+              );
+              break;
+          }
 
           if (
             refElement.position().top - 84 <= scrollPos &&
