@@ -106,7 +106,7 @@ $(function() {
           // var refElement = $(currLink.attr("href").replace("-section", ""));
 
           let refElement;
-
+          console.log(currLink.attr("href"));
           switch (currLink.attr("href")) {
             case "#home":
               refElement = $(currLink.attr("href").replace("home", "home"));
@@ -132,6 +132,7 @@ $(function() {
               );
               break;
           }
+          console.log(refElement);
 
           if (
             refElement.position().top - 84 <= scrollPos &&
