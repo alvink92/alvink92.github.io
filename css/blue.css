@@ -833,7 +833,8 @@ ul.da-thumbs {
 #contact .fa-envelope-o,
 #contact .fa-clock-o,
 #contact .fa-linkedin-square,
-#contact .fa-github {
+#contact .fa-github,
+#contact .fa-file-text {
   background-color: #0099e6;
   color: #fff;
   height: 25px;
