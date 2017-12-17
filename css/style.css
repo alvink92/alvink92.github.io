@@ -44,7 +44,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .contrast {
-  color: #9bb70d;
+  color: #0099e6;
 }
 .heading {
   padding: 60px 0px;
@@ -103,7 +103,7 @@ p {
   font-size: 10px;
 }
 .spinner > div {
-  background-color: #9bb70d;
+  background-color: #0099e6;
   height: 100%;
   width: 6px;
   display: inline-block;
@@ -186,8 +186,8 @@ p {
   position: absolute;
   top: 10px;
   left: 10px;
-  color: #9bb70d;
-  background-color: #9bb70d;
+  color: #0099e6;
+  background-color: #0099e6;
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -296,12 +296,12 @@ p {
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
   background-color: transparent;
-  color: #9bb70d;
+  color: #0099e6;
 }
 .custom-navbar .navbar-nav > li > a.active {
   background-color: transparent;
-  color: #9bb70d;
-  border-bottom: 2px solid #9bb70d;
+  color: #0099e6;
+  border-bottom: 2px solid #0099e6;
 }
 .custom-navbar .navbar-toggle {
   border: none;
@@ -311,7 +311,7 @@ p {
   background-color: transparent;
 }
 .custom-navbar .navbar-toggle .icon-bar {
-  background: #9bb70d;
+  background: #0099e6;
   border-color: transparent;
 }
 
@@ -335,7 +335,7 @@ p {
 #home img {
   max-width: 150px;
   margin: auto;
-  border: 5px solid #9bb70d;
+  border: 5px solid #0099e6;
   border-radius: 50%;
 }
 .typed-cursor,
@@ -359,7 +359,7 @@ p {
 }
 .bouncing-icon:hover {
   background: none;
-  color: #9bb70d;
+  color: #0099e6;
 }
 
 /*-------------------------------------------------------*/
@@ -388,10 +388,10 @@ p {
   font-size: 16px;
 }
 #about li.active a {
-  color: #9bb70d;
+  color: #0099e6;
 }
 #about li a:hover {
-  color: #9bb70d;
+  color: #0099e6;
   background-color: transparent;
 }
 #about p span {
@@ -413,7 +413,7 @@ p {
   font-weight: bold;
   padding: 12px 20px;
   color: #fff;
-  background-color: #9bb70d;
+  background-color: #0099e6;
 }
 #about .seework-btn:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
@@ -429,7 +429,7 @@ p {
   font-weight: bold;
   padding: 12px 20px;
   color: #fff;
-  background-color: #9bb70d;
+  background-color: #0099e6;
 }
 #about .download-btn:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
@@ -443,7 +443,7 @@ p {
 }
 .skill-bar-overlay {
   height: 8px;
-  background-color: #9bb70d;
+  background-color: #0099e6;
   width: 20%;
 }
 .single-skill {
@@ -506,10 +506,10 @@ p {
 }
 #service .back:hover {
   cursor: pointer;
-  box-shadow: 0px 0px 10px #9bb70d;
+  box-shadow: 0px 0px 10px #0099e6;
 }
 #service .back:hover .fa {
-  background-color: #9bb70d;
+  background-color: #0099e6;
 }
 
 /*-------------------------------------------------------*/
@@ -536,7 +536,7 @@ p {
   font-weight: bold;
   padding: 10px 30px;
   color: #fff;
-  background-color: #9bb70d;
+  background-color: #0099e6;
   border-radius: 25px;
 }
 #quote .quote-btn:hover {
@@ -552,8 +552,8 @@ p {
   padding-bottom: 45px;
 }
 #portfolio .active {
-  color: #9bb70d;
-  border-bottom: 2px solid #9bb70d;
+  color: #0099e6;
+  border-bottom: 2px solid #0099e6;
 }
 #portfolio .mix {
   display: none;
@@ -621,7 +621,7 @@ ul.da-thumbs {
   padding: 10px;
   margin: 0px 5px;
   color: #fff;
-  background-color: #9bb70d;
+  background-color: #0099e6;
   border-radius: 50%;
 }
 
@@ -652,7 +652,7 @@ ul.da-thumbs {
 }
 .single-testimonial p.comp {
   font-style: italic;
-  color: #9bb70d;
+  color: #0099e6;
   font-size: 14px;
 }
 .t-content {
@@ -710,7 +710,7 @@ ul.da-thumbs {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #9bb70d;
+  background: #0099e6;
 }
 
 /*-------------------------------------------------------*/
@@ -768,7 +768,7 @@ ul.da-thumbs {
   font-size: 16px;
   padding: 9px 18px;
   color: #fff;
-  background-color: #9bb70d;
+  background-color: #0099e6;
 }
 #blog .blog-btn:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
@@ -800,7 +800,7 @@ ul.da-thumbs {
   padding: 14px;
 }
 #contact .send-btn {
-  background-color: #9bb70d;
+  background-color: #0099e6;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -833,7 +833,7 @@ ul.da-thumbs {
 #contact .fa-envelope-o,
 #contact .fa-clock-o,
 .fa-linkedin-square {
-  background-color: #9bb70d;
+  background-color: #0099e6;
   color: #fff;
   height: 25px;
   width: 25px;
@@ -1019,7 +1019,7 @@ ul.da-thumbs {
   z-index: 9;
 }
 #scroll-up:hover {
-  background-color: #9bb70d;
+  background-color: #0099e6;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   -webkit-transition: all 500ms linear;
   -moz-transition: all 500ms linear;
